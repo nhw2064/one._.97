@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>TOAST</title>
+	<style>
+		a {color: #222; text-decoration: none; }
+		a:hover {color: #390;}
+		*{margin: 0 auto;}
+		#wrap {width: 1201px;  height: 800px; }
+		.left {position: relative; float: left; width: 600px;  height: 300px; border-right: 1px solid #ccc;}
+		.left h4 {font-size: 20px; font-weight: 700; margin: 40px; overflow: hidden;}
+		.left li {font-size: 15px; overflow: hidden; margin-bottom: 10px;}
+		.left li a {float: left; width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+		.left li span {float: right; width: 30%;}
+		.left a.more {position: absolute; top:30px; right: 80px;}
+
+
+		.right {position: relative; float: right; width: 600px; height: 300px;}
+		.right h4 {font-size: 20px; font-weight: 700; margin: 40px;}
+		.right li {position: relative; font-size: 15px; overflow: hidden; margin-bottom: 5px;}
+		.right li img {padding-right: 5px;}
+		.right li a {float: left; width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+		.right li span {float: right; width: 30%;}
+		.right a.more {position: absolute; top:30px; right: 80px;}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="left">
+			<h4>TOAST Meetup!</h4>
+			<ul>
+				<li><a href="#">[Android] Unit Testing Framework - Robolectric</a><span>2019. 06. 04</span></li>
+				<li><a href="#">[Kotlin] 메모리릭 방지하기 | Kotlin, Lambda의 강력함 | Lambda는 진리입니다.</a><span>2019. 06. 04</span></li>
+				<li><a href="#">[Java] Integer.valueOf(127) == Integer.valueOf(127) 는 참일까요?</a><span>2019. 06. 04</span></li>
+				<li><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+			</ul>
+			<a href="#" alt="더보기" class="more"><img src="img/arrow.jpg"></a>
+		</div>
+		<div class="right">
+			<h4>서비스 공지</h4>
+			<ul>
+				<li><a href="#"><img src="img/icon01.jpg" alt="안내"> [보안동향공지] MySQL을 이용한 랜섬웨어 공격동향 및 대응방법</a><span>2019. 06. 04</span></li>
+				<li><a href="#"><img src="img/icon01.jpg" alt="안내"> [TOAST FORWARD] 자바스크립트 OOP 꼭꼭 씹어 먹기</a><span>2019. 06. 04</span></li>
+				<li><a href="#"><img src="img/icon02.jpg" alt="점검"> [JP Region]Compute & Network 점검 안내</a><span>2019. 06. 04</span></li>
+				<li><a href="#"><img src="img/icon01.jpg" alt="안내"> Secure Key Manager 신규 출시 및 u2 Instance 정책 변경 안내</a><span>2019. 06. 04</span></li>
+			</ul>
+			<a href="#" alt="더보기" class="more"><img src="img/arrow.jpg"></a>
+		</div>
+	</div>
+</body>
+</html>

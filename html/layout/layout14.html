@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>layout14</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #wrap {width: 1200px; height: 1500px; overflow: hidden; margin: 0 auto; font-size: 16px; text-align: center; color : #fff;}
+
+        #left {width: 300px; height: 1500px; background-color: #888; float: left;}
+        .logo {width: 300px; height: 300px; background-color: #666; line-height: 300px;}
+        .menu {width: 300px; height: 1200px; background-color: #555; line-height: 300px;}
+
+        #right {width: 900px; height: 1500px; background-color: #777;float: right;}
+        .banner {width: 900px; height: 1000px; background-color: #444; line-height: 1000px;}
+        .contents {width: 900px; height: 300px; background-color: #333; overflow: hidden;}
+        .contents1 {width: 300px; height: 300px; background-color: #333; float: left; line-height: 300px;}
+        .contents2 {width: 300px; height: 300px; background-color: #222;float: left; line-height: 300px;}
+        .contents3 {width: 300px; height: 300px; background-color: #111; float: left; line-height: 300px;}
+        .footer {width: 900px; height: 200px;}
+        .footer01 {width: 200px; height: 200px; background-color: #333; float: left; line-height: 200px; }
+        .footer02 {width: 700px; height: 100px; background-color: #222; float: right; line-height: 100px; }
+        .footer03 {width: 700px; height: 100px; background-color: #111; float: tight; line-height: 100px}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="left">
+            <div class="logo">로고</div>
+            <div class="menu">메뉴</div>
+        </div>
+        <div id="right">
+            <div class="banner">이미지 슬라이드</div>
+            <div class="contents">
+                <div class="contents1">공지사항</div>
+                <div class="contents2">갤러리</div>
+                <div class="contents3">팝업</div>
+            </div>
+            <div class="footer">
+                <div class="footer01">로고</div>
+                <div class="footer02">하단메뉴</div>
+                <div class="footer03">copyright</div>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
