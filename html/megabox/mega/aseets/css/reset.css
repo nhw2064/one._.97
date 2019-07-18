@@ -10,7 +10,7 @@ a:hover {color: #2698cb;}
 
 /* 폰트 초기화 */
 body, input, textarea, select, button, table {
-	font-family: 'Nanum Gothic', AppleSDGothicNeo-Regular,' Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+	font-family: 'Noto Sans KR', 'Nanum Gothic', AppleSDGothicNeo-Regular, 'Malgun Gothic',' 맑은 고딕', dotum, '돋움', sans-serif;
 	color: #222; font-size: 13px; line-height: 1.5;}
 
 /* 블릿 기호 초기화 */
@@ -20,7 +20,7 @@ ul,li,ol{list-style: none;}
 h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;}
 
 /* 반응형 이미지 */
-img {width: 100%;}
+/*img {width: 100%;}*/
 
 /* 폰트 기울기 초기화 */
 em {font-style: normal;}
